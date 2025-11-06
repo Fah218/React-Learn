@@ -1,0 +1,11 @@
+.user-container{
+    background-color: rgb(122, 174, 220);
+    padding:25px;
+    color:black;
+
+
+}
+#user-img{
+    height:120;
+    border-radius: 50%;
+}
