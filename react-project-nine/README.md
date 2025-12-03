@@ -62,7 +62,14 @@ Day 7: 28-Nov-2025
 
 
 
-Day 8: 3-Nov-2025
+Day 8: 3-Dec-2025
 
 -understand concept of useEffect Hook
 -learn in each variation for useEffect Hook 
+
+
+
+Day 9: 4-Dec-2025
+
+-understand concept of useContext Hook
+-steps:  create context then provide value  and finally consume

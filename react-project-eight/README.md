@@ -1,16 +1,68 @@
-# React + Vite
+##This is my daily React learning log! 🚀 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### I'm following Love Babbar's React series and practicing frontend development with enthusiasm.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+::: Daily Progress
+Day 1 : 1-Nov-2025
+-Installed Node.js and Vite 
+-Created first React app using npm create vite@latest 
+-Learned about App.jsx and how components work
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+Day 2 : 07-Nov-2025
+-Learned concept of component
+-How to create each component
+-Use of Props 
+-import and export of files 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+Day 3 : 09-Nov-2025
+
+-Learned concept of HOOK's
+-use of UseState =>     const[state,setState]=useState(0);
+
+
+
+Day 4 : 25-Nov-2025
+
+-Learn concept of props 
+-props use for text,name,cards
+-props used for a (children) put inside each written area under app.jsx and then add props to component
+-function using props under app.jsx
+
+
+
+
+Day 5: 26-Nov-2025
+
+-learn State Lifting 
+-Parent take all responsibility manage,create ,change of state taken by child.
+-Sync of child 
+
+
+
+
+
+Day 6: 27-Nov-2025
+
+-Learn concept of Conditional rendering
+-Rendering methods(if-else , ternary operator , Logical operator , early return )
+
+
+
+
+Day 7: 28-Nov-2025
+
+-Concept to Event Handler
+-how alert apply on each events to handle them.
+
+
+
+Day 8: 3-Nov-2025
+
+-understand concept of useEffect Hook
+-learn in each variation for useEffect Hook 
