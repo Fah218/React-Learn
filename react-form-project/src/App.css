@@ -1,0 +1,87 @@
+/* Reset-ish */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #0e151f;
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Form container */
+
+form {
+  max-width: 400px;
+  width: 100%;
+  background: #ad6464;
+  padding: 60px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+/* Inputs */
+input[type="text"],
+input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cfd4dc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input:focus {
+  border-color: #4f46e5;
+}
+
+/* Error input */
+.input-error {
+  border-color: #e11d48;
+  background-color: #fff1f2;
+}
+
+/* Error message */
+.error-msg {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #33030e;
+}
+
+/* Submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover */
+input[type="submit"]:hover {
+  background-color: #4338ca;
+}
+
+/* Disabled state */
+input[type="submit"]:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
